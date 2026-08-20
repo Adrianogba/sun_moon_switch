@@ -1,0 +1,30 @@
+name: Bug report
+description: Something does not work the way it should.
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you saw, and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: How to reproduce
+      description: A short snippet showing how the switch was configured helps a lot.
+      render: dart
+  - type: input
+    id: versions
+    attributes:
+      label: Versions
+      description: Output of `flutter --version`, plus the sun_moon_switch version.
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      multiple: true
+      options: [Android, iOS, Web, macOS, Windows, Linux]

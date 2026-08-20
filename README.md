@@ -211,13 +211,12 @@ flutter run
 
 ## Ideas, bugs, questions
 
-If something is missing, broken, or just annoying, say so. Bug reports and feature ideas
-both belong in [GitHub issues](https://github.com/Adrianogba/sun_moon_switch/issues), and
-open-ended questions or "would you take a PR for this?" fit better in
-[Discussions](https://github.com/Adrianogba/sun_moon_switch/discussions).
+If something is missing, broken, or just annoying, say so. Bug reports, questions and
+ideas all go to [GitHub issues](https://github.com/Adrianogba/sun_moon_switch/issues);
+there is a template for each.
 
-Requests for new palettes, extra animation touches, or knobs you need exposed are welcome.
-Most of the widget is one painter, so small additions are usually easy.
+New palettes, extra animation touches, or knobs you need exposed are all fair game. Most
+of the widget is one painter, so small additions are usually easy.
 
 Sending a pull request? Run these first:
 

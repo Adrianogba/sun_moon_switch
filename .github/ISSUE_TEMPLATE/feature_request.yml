@@ -1,0 +1,22 @@
+name: Idea or suggestion
+description: A new palette, an animation touch, or a knob you need exposed.
+labels: [enhancement]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like
+      description: Describe the idea. Sketches, GIFs and references are welcome.
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: What are you trying to build
+      description: Knowing the use case usually shapes a better API than the request itself.
+  - type: checkboxes
+    id: pr
+    attributes:
+      label: Would you like to send a pull request for this?
+      options:
+        - label: I am happy to open a PR
