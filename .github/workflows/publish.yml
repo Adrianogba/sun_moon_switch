@@ -23,7 +23,7 @@ jobs:
       id-token: write # Required to authenticate with pub.dev over OIDC.
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       # Configures the pub.dev credentials from the OIDC token.
       - uses: dart-lang/setup-dart@v1
