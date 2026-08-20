@@ -19,20 +19,27 @@
 
 ## What you get
 
-The whole thing is one `CustomPainter`. There are no image assets and no dependencies
-beyond Flutter, so it scales to any size without going blurry and adds a single layer to
-the scene.
+- One `CustomPainter`. No image assets, no dependencies beyond Flutter, sharp at any size.
+- Idle motion: stars twinkle, clouds drift, the sun's rays turn, and a meteor crosses the
+  night sky once per cycle.
+- Drag the orb and it tracks your finger exactly, squashing while you hold it. A quick
+  flick counts even before the midpoint.
+- Screen reader labels, keyboard focus and activation, and automatic reduce-motion support.
 
-It keeps moving when you leave it alone. Stars twinkle at their own pace, clouds drift,
-the sun's rays turn slowly, and once per cycle a meteor crosses the night sky.
+## Requirements
 
-Dragging works the way you would expect. The orb follows your finger exactly, squashes
-slightly while you hold it, and springs into place when you let go. A quick flick counts
-even if you never reached the halfway point.
+| Requirement | Minimum |
+|---|---|
+| Flutter | 3.27.0 |
+| Dart | 3.6.0 |
 
-Accessibility is handled: screen readers get a real toggle with a label and state,
-the switch takes keyboard focus, space and enter activate it, and the platform's
-reduce-motion setting turns the animation off without you doing anything.
+## Supported platforms
+
+| Android | iOS | Web | macOS | Windows | Linux |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+
+There is no platform-specific code, so it runs anywhere Flutter runs.
 
 ## Install
 
@@ -43,9 +50,6 @@ flutter pub add sun_moon_switch
 ```dart
 import 'package:sun_moon_switch/sun_moon_switch.dart';
 ```
-
-Needs Flutter 3.27 and Dart 3.6 or newer. Works on Android, iOS, web, macOS, Windows and
-Linux, since there is no platform-specific code.
 
 ## Usage
 
