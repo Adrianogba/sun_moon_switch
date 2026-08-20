@@ -1,7 +1,7 @@
 name: sun_moon_switch
 description: >-
   An animated day/night toggle switch. A sun with drifting clouds becomes a
-  cratered moon under twinkling stars. Drag it, tap it, or focus it and type.
+  cratered moon under twinkling stars.
 version: 1.0.0
 homepage: https://github.com/Adrianogba/sun_moon_switch
 repository: https://github.com/Adrianogba/sun_moon_switch
