@@ -1,0 +1,50 @@
+name: sun_moon_switch
+description: >-
+  An animated day/night toggle switch. A sun with drifting clouds becomes a
+  cratered moon under twinkling stars. Drag it, tap it, or focus it and type.
+version: 1.0.0
+homepage: https://github.com/Adrianogba/sun_moon_switch
+repository: https://github.com/Adrianogba/sun_moon_switch
+issue_tracker: https://github.com/Adrianogba/sun_moon_switch/issues
+funding:
+  - https://github.com/sponsors/Adrianogba
+  - https://buymeacoffee.com/ampontes93t
+documentation: https://pub.dev/documentation/sun_moon_switch/latest/
+
+topics:
+  - switch
+  - toggle
+  - animation
+  - dark-mode
+  - ui
+
+screenshots:
+  - description: The switch toggling between a sunlit sky and a starry night.
+    path: screenshots/demo.gif
+  - description: The example app in day mode, showing sizes, colors and states.
+    path: screenshots/demo_day.png
+  - description: The same example app in night mode.
+    path: screenshots/demo_night.png
+
+platforms:
+  android:
+  ios:
+  linux:
+  macos:
+  web:
+  windows:
+
+environment:
+  sdk: ^3.6.0
+  flutter: ">=3.27.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_lints: ^6.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:

@@ -1,0 +1,24 @@
+# NOTE: when a .pubignore exists, pub ignores .gitignore entirely, so every
+# build artefact has to be repeated here.
+
+# Build output and tool caches
+build/
+**/build/
+.dart_tool/
+.flutter-plugins-dependencies
+coverage/
+pubspec.lock
+
+# Editor / IDE
+.idea/
+*.iml
+.vscode/
+.metadata
+
+# Recorded animation frames — only the stitched GIFs are shipped.
+.media/
+
+# Tooling that regenerates the README media.
+tool/
+example/tool/
+example/web/
