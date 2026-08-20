@@ -231,12 +231,11 @@ the frame recorder and the ffmpeg script that stitches the GIFs.
 
 ## Support the package
 
-This is free and MIT licensed, and it will stay that way. If it saved you an afternoon and
-you feel like giving something back:
+This is free and MIT licensed, and it stays that way. If it saved you an afternoon and you
+feel like giving something back:
 
 <p align="center">
-  <a href="https://github.com/sponsors/Adrianogba"><img src="https://img.shields.io/badge/GitHub-Sponsors-EA4AAA?logo=githubsponsors&logoColor=white" alt="GitHub Sponsors"></a>
-  <a href="https://buymeacoffee.com/ampontes93t"><img src="https://img.shields.io/badge/Buy%20me%20a%20coffee-FFDD00?logo=buymeacoffee&logoColor=black" alt="Buy me a coffee"></a>
+  <a href="https://github.com/sponsors/Adrianogba"><img src="https://img.shields.io/badge/Sponsor-on%20GitHub-EA4AAA?logo=githubsponsors&logoColor=white" alt="Sponsor on GitHub"></a>
 </p>
 
 Starring the repo and reporting bugs helps just as much.
